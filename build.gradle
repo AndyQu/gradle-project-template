@@ -10,6 +10,7 @@ repositories {
  
 dependencies {
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+		compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
  
     //SLF4J、Logback库
     compile group: 'org.slf4j', name: 'slf4j-api',version:'1.7.+'
